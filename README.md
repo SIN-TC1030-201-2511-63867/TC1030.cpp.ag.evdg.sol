@@ -61,6 +61,17 @@ El repositorio está configurado para crear Diagramas de clases UML con ```draw.
 
 Para más información consulta el [MarketPlace](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio).
 
+## Prompt para revisar la aplicación de estándares de codificación y sugerir mejoras con IA
+
+1. Abre la ventana `Copilot Edit`/`Ediciones de Copilot`.
+2. Coloca como contexto el/los `<archivo.cpp/hpp>`(s) a verificar la aplicación de estándares de programación. 
+3. Usa el siguiente *prompt*:
+
+```
+Revisa la aplicación de estándares de codificación y sugiere posibles mejoras para cumplir con ellos
+```
+4. Verifica los cambios sugeridos y aprueba aquéllos que consideres convenientes.
+
 ## Objetivo
 
 - Busca que el código pase correctamente todas las pruebas
